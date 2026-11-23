@@ -1,0 +1,18 @@
+{
+  "team": "REPLACE_WITH_WORKSPACE_ID",
+  "app": "REPLACE_WITH_APP_ID",
+  "bot": "REPLACE_WITH_APP_BOT_USER_ID",
+  "senders": ["REPLACE_WITH_ALLOWED_SLACK_USER_ID"],
+  "channelRoutes": {
+    "REPLACE_WITH_SLACK_CHANNEL_ID": "studio"
+  },
+  "routes": {
+    "studio": "REPLACE_WITH_LOCAL_CODEX_SESSION_UUID"
+  },
+  "credential": {
+    "kind": "mac-keychain",
+    "account": "REPLACE_WITH_MAC_USERNAME",
+    "service": "slack-work-bridge-token"
+  },
+  "codex": "REPLACE_WITH_ABSOLUTE_CODEX_EXECUTABLE_PATH"
+}

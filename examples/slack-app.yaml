@@ -1,0 +1,15 @@
+display_information:
+  name: Slack Work Bridge
+  description: Routes Slack mentions to explicitly configured local Codex sessions
+features:
+  bot_user:
+    display_name: Slack Work Bridge
+oauth_config:
+  scopes:
+    bot:
+      - app_mentions:read
+settings:
+  event_subscriptions:
+    bot_events:
+      - app_mention
+  socket_mode_enabled: true

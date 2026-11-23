@@ -1,0 +1,13 @@
+/bridge.json
+/*.local.json
+*.dpapi
+*.jsonl
+status.json
+*.log
+*.bak
+*.tmp
+*.zip
+.env
+.env.*
+.DS_Store
+node_modules/
